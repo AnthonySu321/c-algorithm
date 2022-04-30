@@ -1,2 +1,2 @@
 # c-algorithm
-my c-algorithm practice
+my algorithm practice  Mostly Based Java
