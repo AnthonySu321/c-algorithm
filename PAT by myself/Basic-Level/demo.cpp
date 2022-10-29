@@ -1,10 +1,13 @@
 #include<stdio.h>
-int main(){
+#include<vector>
+#include<iostream>
 
-	int T=3;
-	while(--T){ //循环T次 2 1    first minus 
-//	while(T--) {//2 1 0   
-	printf("%d ",T);
-	}	
-
+using namespace std;
+int main()
+{
+    // vector<int> nums;
+    // nums = vector<int> (3);
+    vector<int> num(size, 1);
+    int l = num.size();
+    cout<<l<<endl;//输出为3
 }

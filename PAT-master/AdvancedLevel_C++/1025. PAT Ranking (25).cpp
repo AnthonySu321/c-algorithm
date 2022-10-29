@@ -37,3 +37,6 @@ int main() {
         printf("%013lld %d %d %d\n", fin[i].no, fin[i].finrank, fin[i].loca, fin[i].locarank);
     return 0;
 }
+
+
+select employee_id,last_name AS lname,department_id "部门ID" from employees;
