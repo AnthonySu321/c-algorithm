@@ -1,0 +1,11 @@
+void MatTrans( int A[],int m)
+{
+	int i=0,j,t;
+	for(;i<m;i++){
+		for (j=i+1;j<m;j++){
+			t=A[i*m+j];
+			A[i*m+j]=A[j*m+i];
+			A[j*m+i]=t;
+		}
+	}
+}
