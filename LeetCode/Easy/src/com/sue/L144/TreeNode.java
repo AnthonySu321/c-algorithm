@@ -9,12 +9,15 @@ import java.util.List;
  * @create 2022-10-29 22:29
  */
 
-class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
+public class TreeNode {
+    /*
+    树节点
+     */
+      public int val;
+      public TreeNode left;
+      public TreeNode right;
       TreeNode() {}
-      TreeNode(int val) { this.val = val; }
+      public TreeNode(int val) { this.val = val; }
       TreeNode(int val, TreeNode left, TreeNode right) {
            this.left = left;
           this.right = right;
