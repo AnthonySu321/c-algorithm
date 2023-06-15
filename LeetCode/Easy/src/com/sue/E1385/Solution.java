@@ -52,6 +52,8 @@ class Main {
         int d=84;
         Solution s = new Solution();
         int theDistanceValue = s.findTheDistanceValue(arr1, arr2, d);
+        int inf= (int) 1e9;
+        System.out.println(inf);
         System.out.println(theDistanceValue);
 
     }

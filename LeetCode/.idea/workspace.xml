@@ -18,8 +18,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/DevelopTools/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/DevelopTools/Java/jdk1.8.0_131/src.zip!/java/lang/AbstractStringBuilder.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/DevelopTools/Java/jdk1.8.0_131/src.zip!/java/lang/Character.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/DevelopTools/Java/jdk1.8.0_131/src.zip!/java/lang/ClassLoader.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/DevelopTools/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/DevelopTools/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuilder.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/DevelopTools/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -33,6 +37,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -45,26 +53,13 @@
       <recent name="com.sue.L203" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sue.E1385.Main" />
-      <module name="Easy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sue.E1385.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.sue.M713.Solution">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sue.E1385.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.sue.M713.Main" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sue.E1385.*" />
+          <option name="PATTERN" value="com.sue.M713.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sue.E278.Solution" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sue.M713.Test" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sue.E278.*" />
+          <option name="PATTERN" value="com.sue.M713.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sue.E6257.Solution1" />
+    <configuration name="com.sue.E26.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sue.E26.MainClass" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sue.E6257.*" />
+          <option name="PATTERN" value="com.sue.E26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.sue.E6249.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sue.E6249.Main" />
+    <configuration name="com.sue.M713.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sue.M713.Main" />
       <module name="Easy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sue.E6249.*" />
+          <option name="PATTERN" value="com.sue.M713.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.sue.M713.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sue.M713.Solution" />
+      <module name="Easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sue.M713.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.sue.M713.Solution" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.com.sue.M713.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.com.sue.E6249.Main" />
+        <item itemvalue="Application.com.sue.E26.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +163,33 @@
       <workItem from="1677049015534" duration="2039000" />
       <workItem from="1677076436628" duration="871000" />
       <workItem from="1677426228929" duration="2039000" />
+      <workItem from="1679548255451" duration="3111000" />
+      <workItem from="1679564077882" duration="1286000" />
+      <workItem from="1679821909737" duration="4461000" />
+      <workItem from="1679834147939" duration="1103000" />
+      <workItem from="1679913316876" duration="7537000" />
+      <workItem from="1679970972988" duration="12505000" />
+      <workItem from="1680054329206" duration="885000" />
+      <workItem from="1680360423981" duration="3962000" />
+      <workItem from="1680493531539" duration="740000" />
+      <workItem from="1680963574167" duration="734000" />
+      <workItem from="1681006221142" duration="6211000" />
+      <workItem from="1681037706869" duration="12883000" />
+      <workItem from="1681120469884" duration="1865000" />
+      <workItem from="1681302153052" duration="3770000" />
+      <workItem from="1681450518941" duration="1413000" />
+      <workItem from="1683552239144" duration="3822000" />
+      <workItem from="1683605717780" duration="2950000" />
+      <workItem from="1683690804463" duration="6949000" />
+      <workItem from="1683963684254" duration="1616000" />
+      <workItem from="1684032093338" duration="4496000" />
+      <workItem from="1684125306891" duration="1396000" />
+      <workItem from="1684201629683" duration="2708000" />
+      <workItem from="1684296562082" duration="3625000" />
+      <workItem from="1684375727972" duration="2567000" />
+      <workItem from="1684460691437" duration="745000" />
+      <workItem from="1684658131380" duration="274000" />
+      <workItem from="1684721862825" duration="1518000" />
     </task>
     <servers />
   </component>
@@ -195,16 +230,41 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Easy/src/com/sue/M713/Solution.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/Easy/src/com/sue/Demo/MainClass.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Easy/src/com/sue/E1385/Solution.java</url>
-          <line>53</line>
+          <url>file://$PROJECT_DIR$/Easy/src/com/sue/M713/Test.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
           <option name="timeStamp" value="14" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="27" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Easy/src/com/sue/Demo/MainClass.java</url>
+          <line>49</line>
+          <properties class="com.sue.Demo.MainClass" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode$com_sue_M713_Solution.ic" NAME="com.sue.M713.Solution Coverage Results" MODIFIED="1683701467716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sue.M713.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCode$MainClass.ic" NAME="MainClass Coverage Results" MODIFIED="1681006560561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sue.Demo.*</FILTER>
+    </SUITE>
   </component>
 </project>
