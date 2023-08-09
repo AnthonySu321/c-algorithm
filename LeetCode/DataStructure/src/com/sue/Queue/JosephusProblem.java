@@ -1,6 +1,6 @@
 package com.sue.Queue;
 
-import java.util.Queue;
+//import java.util.Queue;
 
 /**
  * @author Anthony

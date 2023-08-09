@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm.iml" filepath="$PROJECT_DIR$/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/DataStructure/DataStructure.iml" filepath="$PROJECT_DIR$/LeetCode/DataStructure/DataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/Easy/Easy.iml" filepath="$PROJECT_DIR$/LeetCode/Easy/Easy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/Medium/Medium.iml" filepath="$PROJECT_DIR$/LeetCode/Medium/Medium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/Other/Other.iml" filepath="$PROJECT_DIR$/LeetCode/Other/Other.iml" />
+    </modules>
+  </component>
+</project>
