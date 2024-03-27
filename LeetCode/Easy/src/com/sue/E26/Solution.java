@@ -1,45 +1,35 @@
-//package com.sue.E26;
-//
-//import com.sue.L202.Solution;
-//
-///**
-// * @author Anthony
-// * @create 2022-11-22 11:56
-// */
-//public class Solution {
-//    public static int search(int[] nums, int target) {
-//        int n = nums.length;
-//        if (n == 0) {
-//            return -1;
-//        }
-//        if (n == 1) {
-//            return nums[0] == target ? 0 : -1;
-//        }
-//        int l = 0, r = n - 1;
-//        while (l <= r) {
-//            int mid = (l + r) / 2;
-//            if (nums[mid] == target) {
-//                return mid;
-//            }
-//            if (nums[0] <= nums[mid]) {
-//                if (nums[0] <= target && target < nums[mid]) {
-//                    r = mid - 1;
-//                } else {
-//                    l = mid + 1;
-//                }
-//            } else {
-//                if (nums[mid] < target && target <= nums[n - 1]) {
-//                    l = mid + 1;
-//                } else {
-//                    r = mid - 1;
-//                }
-//            }
-//        }
-//        return -1;
-//    }
-//
-//
-//}
-//
-//
-//
+import java.util.*;
+
+class Solution {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        while (in.hasNextLine()) { // 使用 hasNextLine 读取整行字符串
+            String input = in.nextLine();
+            StringBuilder upperCase = new StringBuilder();
+            StringBuilder lowerCase = new StringBuilder();
+            StringBuilder digits = new StringBuilder();
+
+            // 遍历字符串，按类别收集字符
+            for (char c : input.toCharArray()) {
+                if (Character.isUpperCase(c)) {
+                    upperCase.append(c);
+                } else if (Character.isLowerCase(c)) {
+                    lowerCase.append(c);
+                } else if (Character.isDigit(c)) {
+                    digits.append(c);
+                }
+            }
+
+            // 对每个分类进行排序
+            char[] upperChars = upperCase.toString().toCharArray();
+            Arrays.sort(upperChars);
+            char[] lowerChars = lowerCase.toString().toCharArray();
+            Arrays.sort(lowerChars);
+            char[] digitChars = digits.toString().toCharArray();
+            Arrays.sort(digitChars);
+
+            // 合并并输出结果
+            System.out.println(new String(upperChars) + new String(lowerChars) + new String(digitChars));
+        }
+    }
+}
